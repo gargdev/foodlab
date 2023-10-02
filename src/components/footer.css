@@ -1,0 +1,76 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    
+}
+
+.footer-left{
+            width: 100vw;
+            /* align-items: center; */
+            text-align: center;
+            /* padding: 0em 10em 0em 10em; */
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 0em 10em 0em 10em;
+    background: #F4EEA9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #5D3A001F;
+    border-radius: 10px;
+    opacity: 1;
+    width: 150vw;
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 9rem;
+}
+
+.footer-links h4{
+    text-align: left;
+    font: normal normal bold 25px/33px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-decoration: overline 2px;
+    cursor: auto;
+}
+
+.footer-links ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+}
+.footer-links li{
+    text-align: left;
+    font: normal normal normal 25px/33px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    list-style-type: none;
+}
+
+.footer-links li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+}
+.footer-bottom p{
+    text-align: left;
+    font: normal normal normal 25px/33px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}

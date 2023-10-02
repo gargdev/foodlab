@@ -1,0 +1,113 @@
+.content1-parent-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 4rem;
+    background: transparent url('../assets/Group\ 4.png') 0% 0% no-repeat ;
+    background-position: right;
+    opacity: 1;
+    margin-top: 5%;
+}
+
+.content1-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    gap: 1rem;
+    margin-top: 5%;
+}
+
+.content1-heading h2{
+    text-align: left;
+    font: normal normal bold 50px/76px Poppins;
+    letter-spacing: 0px;
+    color: #080808;
+    opacity: 1;
+}
+
+.line{
+    top: 117px;
+    left: 166px;
+    width: 0px;
+    height: 80px;
+    /* UI Properties */
+    align-items: center;
+    border: 10px solid #519259;
+    opacity: 1;
+}
+
+.content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0em 30em 0em 20em;
+        gap: 10rem;
+}
+
+.left-content img{
+    /* width: 100%; */
+    height: auto;
+}
+
+.right-content p{
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #121412;
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 1700px){
+    .content1-parent-container{
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .content1-heading{
+        align-items: center;
+        text-align: center;
+    }
+            .content{
+                flex-direction: column;
+                gap: 2rem;
+                align-items: center;
+                text-align: center;
+            }
+
+}
+
+@media only screen and (max-width: 1700px){
+    .content1-parent-container{
+        padding: 20em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content1-heading{
+            width: 100%;
+            align-items: center;
+            text-align: center;
+    }
+
+    .line{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .content1-parent-container{
+        padding: 20em;
+    }
+
+    .content{
+        padding: 20em;
+    }
+
+    .left-content img{
+        width: 200%;
+    }
+}

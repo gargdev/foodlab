@@ -1,0 +1,133 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    /* gap:35rem; */
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav-logo img{
+    width: 100%;
+    height: auto;
+    margin-left: -10%;
+}
+.nav-links{
+    display: flex;
+    gap: 5rem;
+    list-style-type: none;
+}
+
+.nav-links a{
+    text-align: center;
+    font: normal normal 600 30px/40px Segoe UI;
+    letter-spacing: 0px;
+    color: #519259;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+}
+
+.scrolled{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    /* position: fixed; */
+    z-index: 9990;
+  }
+
+.nav-menu{
+    display: none;
+}
+
+
+/* Your existing styles */
+
+/* Media query for screen size below 1024px */
+@media only screen and (max-width: 1694px){
+    .nav-links{
+      display: none;
+    }
+  
+    .nav-menu{
+      display: flex;
+      /* margin-left: -50%; */
+      margin-right: 4%;
+    }
+  } 
+  
+  /* Keep your existing styles here */
+
+/* Media query for screen size below 1694px */
+@media only screen and (max-width: 1694px) {
+    .navbar {
+      /* flex-direction: column; */
+      align-items: center;
+      background-color: white;
+      position: fixed;
+      width: 100%;
+      /* z-index: 9990; */
+      /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    }
+  
+    /* .nav-logo img {
+      margin: 20px 0;
+    } */
+  
+    .nav-links {
+      display: none; /* Hide the regular links */
+    }
+  
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: space-around;
+    }
+  
+    .menu {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+      margin-top: 50%;
+      /* margin-left: 20%; */
+      gap: 2rem;
+    }
+  
+    .menu ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      text-decoration: none;
+      list-style-type: none;
+    }
+  
+    .menu ul li {
+      font-size: 20px;
+      text-align: center;
+      align-items: flex-start;
+      text-align: left;
+
+      text-decoration: none;
+      list-style-type: none;
+    }
+  
+    .nav-menu-links a {
+        font: normal normal 600 30px/40px Segoe UI;
+        letter-spacing: 0px;
+        color: #519259;
+        opacity: 1;
+      /* margin-top: 40%; */
+      text-decoration: none;
+      list-style-type: none;
+      align-items: flex-start;
+      text-align: left;
+      z-index: 9999;
+    }
+  }
+  
